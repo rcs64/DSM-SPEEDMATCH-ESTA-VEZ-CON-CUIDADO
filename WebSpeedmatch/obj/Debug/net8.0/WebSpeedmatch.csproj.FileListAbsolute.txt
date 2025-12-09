@@ -1153,10 +1153,10 @@ C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\o
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\WebSpeed.AB5E3A5B.Up2Date
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\WebSpeedmatch.dll
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\refint\WebSpeedmatch.dll
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\WebSpeedmatch.pdb
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\WebSpeedmatch.genruntimeconfig.cache
 C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\ref\WebSpeedmatch.dll
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\WebSpeedmatch\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

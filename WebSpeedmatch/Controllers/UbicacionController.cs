@@ -41,6 +41,25 @@ namespace WebSpeedmatch.Controllers
         // GET: UbicacionController/Create
         public ActionResult Create()
         {
+            SessionInitialize();
+            using var session = NHibernateHelper.GetSession();
+
+            UsuarioRepository usuarioRepository = new UsuarioRepository(session);
+            var usuarios = usuarioRepository.GetAll().ToList();
+
+            var usuarioSelectList = new SelectListItem[usuarios.Count];
+            for (int i = 0; i < usuarios.Count; i++)
+            {
+                usuarioSelectList[i] = new SelectListItem
+                {
+                    Value = usuarios[i].Id.ToString(),
+                    Text = usuarios[i].Nombre
+                };
+            }
+
+            ViewBag.Usuarios = usuarioSelectList;
+            SessionClose();
+
             return View();
         }
 
@@ -51,20 +70,65 @@ namespace WebSpeedmatch.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    // Recargar usuarios si hay errores de validación
+                    SessionInitialize();
+                    using var sessionGetUsers = NHibernateHelper.GetSession();
+                    UsuarioRepository usuarioRepositoryGetUsers = new UsuarioRepository(sessionGetUsers);
+                    var usuarios = usuarioRepositoryGetUsers.GetAll().ToList();
+
+                    var usuarioSelectList = new SelectListItem[usuarios.Count];
+                    for (int i = 0; i < usuarios.Count; i++)
+                    {
+                        usuarioSelectList[i] = new SelectListItem
+                        {
+                            Value = usuarios[i].Id.ToString(),
+                            Text = usuarios[i].Nombre
+                        };
+                    }
+
+                    ViewBag.Usuarios = usuarioSelectList;
+                    SessionClose();
+                    return View(ubi);
+                }
+
+                SessionInitialize();
                 var session = NHibernateHelper.GetSession();
-                UbicacionRepository ubicacionRepository=new UbicacionRepository(session);
+                UbicacionRepository ubicacionRepository = new UbicacionRepository(session);
                 var unitOfWork = new UnitOfWork(session);
                 var usuarioRepo = new UsuarioRepository(session);
-                var ubicacionCEN = new UbicacionCEN(ubicacionRepository,usuarioRepo, unitOfWork);
+                var ubicacionCEN = new UbicacionCEN(ubicacionRepository, usuarioRepo, unitOfWork);
 
                 ubicacionCEN.Crear(ubi.Lat, ubi.Lon, ubi.UsuarioId);
-
+                SessionClose();
 
                 return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                SessionClose();
+                ModelState.AddModelError("", $"Error al crear la ubicación: {ex.Message}");
+                
+                // Recargar usuarios para mostrar la forma de nuevo
+                SessionInitialize();
+                using var sessionGetUsers = NHibernateHelper.GetSession();
+                UsuarioRepository usuarioRepositoryGetUsers = new UsuarioRepository(sessionGetUsers);
+                var usuarios = usuarioRepositoryGetUsers.GetAll().ToList();
+
+                var usuarioSelectList = new SelectListItem[usuarios.Count];
+                for (int i = 0; i < usuarios.Count; i++)
+                {
+                    usuarioSelectList[i] = new SelectListItem
+                    {
+                        Value = usuarios[i].Id.ToString(),
+                        Text = usuarios[i].Nombre
+                    };
+                }
+
+                ViewBag.Usuarios = usuarioSelectList;
+                SessionClose();
+                return View(ubi);
             }
         }
 

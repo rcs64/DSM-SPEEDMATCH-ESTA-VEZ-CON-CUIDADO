@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Globalization;
 using Infrastructure.NHibernate;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Configurar localización para español (aceptar coma como separador decimal)
+var spanishCulture = new CultureInfo("es-ES");
+CultureInfo.DefaultThreadCurrentCulture = spanishCulture;
+CultureInfo.DefaultThreadCurrentUICulture = spanishCulture;
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

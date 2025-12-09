@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Infrastructure.NHibernate;
 using WebSpeedmatch.Models;
 using WebSpeedmatch.Assemblers;
+using Infrastructure;
+using ApplicationCore.Domain.CEN;
+using ApplicationCore.Domain.Enums;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace WebSpeedmatch.Controllers
 {
@@ -34,18 +38,31 @@ namespace WebSpeedmatch.Controllers
         // GET: UsuarioController/Create
         public ActionResult Create()
         {
+            ViewBag.Generos = Enum.GetValues(typeof(Genero))
+                .Cast<Genero>()
+                .Select(g => new SelectListItem
+                {
+                    Value = ((int)g).ToString(),
+                    Text = g.ToString()
+                }).ToList();
             return View();
         }
 
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(UsuaroViewModel user)
+        public ActionResult Create(UsuarioViewModel user)
         {
             try
             {
-                UsuaroViewModel newUser = user();
-                return RedirectToAction(nameof(Index));
+                var session = NHibernateHelper.GetSession();
+                var usuarioRepository = new UsuarioRepository(session);
+                var unitOfWork = new UnitOfWork(session);
+                var usuarioCEN = new UsuarioCEN(usuarioRepository, unitOfWork);
+
+                usuarioCEN.Crear(user.Nombre,  user.Email, user.Pass, user.TipoPlan);
+
+                return RedirectToAction("Index");
             }
             catch
             {

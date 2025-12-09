@@ -35,7 +35,7 @@ namespace WebSpeedmatch.Models
         [Display(Name = "Número de match")]
         public int NumMatchs { get; set; }
 
-        [Display(Prompt = "Selecciona tu género", Name = "Género")]
+        [Display(Name = "Género")]
         [Required(ErrorMessage = "Elige un género o elige 'otro' para indicar uno que no aparece")]
         public Genero Genero { get; set; }
 

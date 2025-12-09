@@ -78,8 +78,8 @@ namespace WebSpeedmatch.Models
         [Display(Name = "Superlikes disponibles")]
         public int SuperlikesDisponibles { get; set; }
 
-        [Display(Name = "Clave ajena a preferencias")]
-        public long? PreferenciasId { get; set; }
+        ////[Display(Name = "Clave ajena a preferencias")]
+        ////public long? PreferenciasId { get; set; }
 
         // falta la parte de relaciones, que no se si va aqui
     }

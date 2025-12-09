@@ -89,7 +89,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="TipoPlan" class="control-label"></label>
-                <input asp-for="TipoPlan" class="form-control" />
+                @Html.DropDownListFor(model => model.TipoPlan, (List<SelectListItem>)ViewBag.Planes, "Selecciona un plan", new { @class = "form-control" })
                 <span asp-validation-for="TipoPlan" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -101,11 +101,6 @@
                 <label asp-for="SuperlikesDisponibles" class="control-label"></label>
                 <input asp-for="SuperlikesDisponibles" class="form-control" />
                 <span asp-validation-for="SuperlikesDisponibles" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PreferenciasId" class="control-label"></label>
-                <input asp-for="PreferenciasId" class="form-control" />
-                <span asp-validation-for="PreferenciasId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

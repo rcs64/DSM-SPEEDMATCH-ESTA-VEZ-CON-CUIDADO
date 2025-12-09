@@ -27,7 +27,6 @@ namespace WebSpeedmatch.Assemblers
             vm.TipoPlan = en.TipoPlan;
             vm.Superlikes = en.Superlikes;
             vm.SuperlikesDisponibles = en.SuperlikesDisponibles;
-            vm.PreferenciasId = en.PreferenciasId;
             return vm;
         }
 

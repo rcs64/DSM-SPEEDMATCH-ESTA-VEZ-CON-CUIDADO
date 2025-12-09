@@ -45,6 +45,14 @@ namespace WebSpeedmatch.Controllers
                     Value = ((int)g).ToString(),
                     Text = g.ToString()
                 }).ToList();
+
+            ViewBag.Planes = Enum.GetValues(typeof(Plan))
+                .Cast<Plan>()
+                .Select(p => new SelectListItem
+                {
+                    Value = ((int)p).ToString(),
+                    Text = p.ToString()
+                }).ToList();
             return View();
         }
 

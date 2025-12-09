@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSpeedmatch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e08f60362ab3ed0d65ef02f44a16308f171c1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01e5071232ea5b9f02d36ea6bc0ad4ddba16f7d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSpeedmatch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSpeedmatch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

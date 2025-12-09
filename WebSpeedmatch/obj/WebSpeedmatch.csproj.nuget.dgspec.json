@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\WebSpeedmatch\\WebSpeedmatch.csproj": {}
+    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\WebSpeedmatch\\WebSpeedmatch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\rcs_2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\rcs_2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\WebSpeedmatch\\WebSpeedmatch.csproj": {
+    "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\WebSpeedmatch\\WebSpeedmatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\WebSpeedmatch\\WebSpeedmatch.csproj",
+        "projectUniqueName": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\WebSpeedmatch\\WebSpeedmatch.csproj",
         "projectName": "WebSpeedmatch",
-        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\WebSpeedmatch\\WebSpeedmatch.csproj",
+        "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\WebSpeedmatch\\WebSpeedmatch.csproj",
         "packagesPath": "C:\\Users\\rcs_2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\WebSpeedmatch\\obj\\",
+        "outputPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\WebSpeedmatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,11 +194,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

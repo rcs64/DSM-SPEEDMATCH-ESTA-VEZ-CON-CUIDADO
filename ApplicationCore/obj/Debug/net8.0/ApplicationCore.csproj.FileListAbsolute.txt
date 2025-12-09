@@ -62,3 +62,16 @@ C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMa
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch - copia\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch - copia\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch - copia\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

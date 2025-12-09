@@ -1,0 +1,79 @@
+CAMBIOS REALIZADOS PARA INTEGRAR BasicController.cs
+
+1. Creación de carpeta y archivo:
+   - Ruta: Infrastructure/CP/SessionCPNHibernate.cs
+   - Contenido añadido:
+-----
+using NHibernate;
+using Infrastructure.NHibernate;
+
+namespace Infrastructure.CP
+{
+    public class SessionCPNHibernate
+    {
+        private ISession session;
+
+        public SessionCPNHibernate(ISession session)
+        {
+            this.session = session;
+        }
+
+        // Métodos de ejemplo para la sesión
+        public ISession GetSession()
+        {
+            return session;
+        }
+    }
+}
+-----
+
+2. Creación de carpeta:
+   - Ruta: Infrastructure/Repositories/WebSpeedmatch
+   - (Solo estructura, sin archivos nuevos)
+
+3. Modificación en WebSpeedmatch/Controllers/BasicController.cs:
+   - Línea modificada: método de obtención de sesión
+   - Antes:
+-----
+sessionInside = NHibernateHelper.OpenSession();
+-----
+   - Después:
+-----
+sessionInside = NHibernateHelper.GetSession();
+-----
+
+4. Resolución de ambigüedad en la declaración de ISession:
+   - Antes:
+-----
+private ISession sessionInside;
+-----
+   - Después:
+-----
+private NHibernate.ISession sessionInside;
+-----
+
+5. Creación de archivos de entidades (EN) en Infrastructure/EN:
+   - Archivos creados:
+     - Admin.cs
+     - Foto.cs
+     - Match.cs
+     - Notificacion.cs
+     - Preferencias.cs
+     - Superlike.cs
+     - Ubicacion.cs
+     - Usuario.cs
+   - Contenido base de cada archivo:
+-----
+namespace Infrastructure.EN
+{
+    public class [Entidad]
+    {
+        public int Id { get; set; }
+        // Otras propiedades básicas
+        public [Entidad]() { }
+    }
+}
+-----
+   (Reemplaza [Entidad] por el nombre correspondiente en cada archivo)
+
+Si necesitas revertir, elimina los archivos creados y revierte las líneas modificadas según este documento.

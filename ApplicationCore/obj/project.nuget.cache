@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NI3osY8nxKM=",
+  "dgSpecHash": "VHqsXYBoSqQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SpeedMatch - copia\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\rcs_2\\Desktop\\Universidad\\Ingeniería Multimedia\\Año 3\\DSM\\DSM-SPEEDTMATCH-CON-CUIDADO\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rcs_2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rcs_2\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

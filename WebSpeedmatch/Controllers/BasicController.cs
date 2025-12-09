@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NHibernate;
 using Infrastructure.CP;
-using Infrastructure.Repositories.WebSpeedmatch;
+using Infrastructure.NHibernate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +11,7 @@ namespace WebSpeedmatch.Controllers
 {
     public class BasicController:Controller
     {
-        private ISession sessionInside;
-
+        private NHibernate.ISession sessionInside;
 
         protected SessionCPNHibernate session;
 
@@ -24,11 +23,10 @@ namespace WebSpeedmatch.Controllers
         {
             if (session == null)
             {
-                sessionInside = NHibernateHelper.OpenSession();
+                sessionInside = NHibernateHelper.GetSession();
                 session = new SessionCPNHibernate(sessionInside);
             }
         }
-
 
         protected void SessionClose()
         {

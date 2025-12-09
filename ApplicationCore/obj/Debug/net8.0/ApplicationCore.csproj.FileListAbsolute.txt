@@ -75,3 +75,16 @@ C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTM
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SPEEDTMATCH-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Daniel\Source\Repos\DSM-SPEEDMATCH-ESTA-VEZ-CON-CUIDADO\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

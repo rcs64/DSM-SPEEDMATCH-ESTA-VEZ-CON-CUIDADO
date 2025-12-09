@@ -20,11 +20,17 @@
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\AppLib\AppLib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="ApplicationCore">
+      <HintPath>..\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.DynamicProxy2">
       <HintPath>..\AppLib\AppLib\Castle.DynamicProxy2.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\AppLib\AppLib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure">
+      <HintPath>..\Infrastructure\bin\Debug\net8.0\Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="jose-jwt">
       <HintPath>..\AppLib\AppLib\jose-jwt.dll</HintPath>

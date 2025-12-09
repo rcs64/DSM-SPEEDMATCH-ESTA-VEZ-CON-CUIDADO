@@ -12,7 +12,9 @@
           "Infrastructure": "1.0.0",
           "Microsoft.Data.SqlClient": "6.1.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.22",
+          "ApplicationCore.Reference": "1.0.0.0",
           "Castle.DynamicProxy2": "2.1.0.0",
+          "Infrastructure.Reference": "1.0.0.0",
           "jose-jwt": "2.4.0.0",
           "LinFu.DynamicProxy": "1.0.3.14911",
           "log4net": "1.2.10.0",
@@ -2658,28 +2660,9 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "ApplicationCore/1.0.0": {
-        "dependencies": {
-          "System.IdentityModel.Tokens.Jwt": "8.14.0"
-        },
+      "ApplicationCore.Reference/1.0.0.0": {
         "runtime": {
           "ApplicationCore.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Infrastructure/1.0.0": {
-        "dependencies": {
-          "ApplicationCore": "1.0.0",
-          "BCrypt.Net-Next": "4.0.3",
-          "Microsoft.Data.SqlClient": "6.1.3",
-          "Microsoft.Extensions.DependencyInjection": "8.0.1",
-          "NHibernate": "5.4.10",
-          "System.Data.SqlClient": "4.8.6"
-        },
-        "runtime": {
-          "Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -2690,6 +2673,14 @@
           "Castle.DynamicProxy2.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Infrastructure.Reference/1.0.0.0": {
+        "runtime": {
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -4360,17 +4351,17 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "ApplicationCore/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Infrastructure/1.0.0": {
-      "type": "project",
+    "ApplicationCore.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "Castle.DynamicProxy2/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

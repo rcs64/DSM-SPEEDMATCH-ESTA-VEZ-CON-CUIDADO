@@ -1,0 +1,267 @@
+{
+  "test_date": "2025-12-09T19:47:02.2255198+01:00",
+  "total_tests": 43,
+  "successful_tests": 39,
+  "failed_tests": 4,
+  "success_rate_percentage": 90.69767441860465,
+  "tests": [
+    {
+      "test_name": "Usuario CREATE",
+      "success": true,
+      "details": "ID: 808, Nombre: Juan P\u00E9rez, Superlikes: 0",
+      "timestamp": "2025-12-09T19:47:01.7063286+01:00"
+    },
+    {
+      "test_name": "Usuario",
+      "success": false,
+      "details": "Ya existe un usuario con email maria@test.com",
+      "timestamp": "2025-12-09T19:47:01.7322871+01:00"
+    },
+    {
+      "test_name": "Preferencias CREATE",
+      "success": true,
+      "details": "ID: 909, Orientaci\u00F3n: Heterosexual",
+      "timestamp": "2025-12-09T19:47:01.7544397+01:00"
+    },
+    {
+      "test_name": "Preferencias CREATE 2",
+      "success": true,
+      "details": "ID: 910, Conocer: Todos",
+      "timestamp": "2025-12-09T19:47:01.7610512+01:00"
+    },
+    {
+      "test_name": "Preferencias READ ALL",
+      "success": true,
+      "details": "Total preferencias: 4",
+      "timestamp": "2025-12-09T19:47:01.7690027+01:00"
+    },
+    {
+      "test_name": "Preferencias READ BY ID",
+      "success": true,
+      "details": "Encontrada, Orientaci\u00F3n: Heterosexual",
+      "timestamp": "2025-12-09T19:47:01.7715505+01:00"
+    },
+    {
+      "test_name": "Preferencias UPDATE",
+      "success": true,
+      "details": "Nueva orientaci\u00F3n: Asexual",
+      "timestamp": "2025-12-09T19:47:01.7823124+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n CREATE",
+      "success": true,
+      "details": "ID: 1010, Coords: (40,4168, -3,7038)",
+      "timestamp": "2025-12-09T19:47:01.8107061+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n CREATE 2",
+      "success": true,
+      "details": "ID: 1011, Barcelona",
+      "timestamp": "2025-12-09T19:47:01.8161063+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n READ ALL",
+      "success": true,
+      "details": "Total ubicaciones: 8",
+      "timestamp": "2025-12-09T19:47:01.823618+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n READ BY ID",
+      "success": true,
+      "details": "Coords: (40,4168, -3,7038)",
+      "timestamp": "2025-12-09T19:47:01.8241573+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n UPDATE",
+      "success": true,
+      "details": "Nuevas coords: (40,52, -3,75)",
+      "timestamp": "2025-12-09T19:47:01.830544+01:00"
+    },
+    {
+      "test_name": "Ubicaci\u00F3n DELETE",
+      "success": true,
+      "details": "Eliminada, b\u00FAsqueda retorna: null",
+      "timestamp": "2025-12-09T19:47:01.8507025+01:00"
+    },
+    {
+      "test_name": "Foto CREATE",
+      "success": true,
+      "details": "ID: 1111, URL: https://example.com/foto1.jpg",
+      "timestamp": "2025-12-09T19:47:01.8801075+01:00"
+    },
+    {
+      "test_name": "Foto CREATE 2",
+      "success": true,
+      "details": "ID: 1112",
+      "timestamp": "2025-12-09T19:47:01.8858862+01:00"
+    },
+    {
+      "test_name": "Foto READ ALL",
+      "success": true,
+      "details": "Total fotos: 11",
+      "timestamp": "2025-12-09T19:47:01.8927261+01:00"
+    },
+    {
+      "test_name": "Foto READ BY ID",
+      "success": true,
+      "details": "URL: https://example.com/foto1.jpg",
+      "timestamp": "2025-12-09T19:47:01.8930254+01:00"
+    },
+    {
+      "test_name": "Foto UPDATE",
+      "success": true,
+      "details": "Nueva URL: https://example.com/foto1_actualizada.jpg",
+      "timestamp": "2025-12-09T19:47:01.8999509+01:00"
+    },
+    {
+      "test_name": "Foto DELETE",
+      "success": true,
+      "details": "Eliminada, b\u00FAsqueda retorna: null",
+      "timestamp": "2025-12-09T19:47:01.9116778+01:00"
+    },
+    {
+      "test_name": "Match CREATE",
+      "success": true,
+      "details": "ID: 1212, Emisor: 101, Receptor: 102",
+      "timestamp": "2025-12-09T19:47:01.9386062+01:00"
+    },
+    {
+      "test_name": "Match READ ALL",
+      "success": true,
+      "details": "Total matches: 9",
+      "timestamp": "2025-12-09T19:47:01.9457783+01:00"
+    },
+    {
+      "test_name": "Match READ BY ID",
+      "success": true,
+      "details": "Like Emisor: True",
+      "timestamp": "2025-12-09T19:47:01.9461611+01:00"
+    },
+    {
+      "test_name": "Match READ BY USUARIO",
+      "success": true,
+      "details": "Matches de usuario: 3",
+      "timestamp": "2025-12-09T19:47:01.9551256+01:00"
+    },
+    {
+      "test_name": "Match UPDATE (Match Mutuo)",
+      "success": true,
+      "details": "Like Receptor: True, FechaMatch: 09/12/2025 19:47:01",
+      "timestamp": "2025-12-09T19:47:01.9814527+01:00"
+    },
+    {
+      "test_name": "IniciarMatch",
+      "success": false,
+      "details": "Ya existe un usuario con email carlos@test.com",
+      "timestamp": "2025-12-09T19:47:01.9973413+01:00"
+    },
+    {
+      "test_name": "CorresponderMatch SETUP",
+      "success": true,
+      "details": "Match pendiente creado: ID 1213",
+      "timestamp": "2025-12-09T19:47:02.0179602+01:00"
+    },
+    {
+      "test_name": "CorresponderMatch ACEPTAR",
+      "success": true,
+      "details": "Match ID: 1213, LikeReceptor: True, FechaMatch: 09/12/2025 19:47:02",
+      "timestamp": "2025-12-09T19:47:02.0646017+01:00"
+    },
+    {
+      "test_name": "CorresponderMatch CONTADORES",
+      "success": true,
+      "details": "Usuario A - antes: 3, despu\u00E9s: 4 | Usuario B - antes: 3, despu\u00E9s: 4",
+      "timestamp": "2025-12-09T19:47:02.0647338+01:00"
+    },
+    {
+      "test_name": "CorresponderMatch NOTIFICACIONES",
+      "success": true,
+      "details": "Total notificaciones: 12",
+      "timestamp": "2025-12-09T19:47:02.0717472+01:00"
+    },
+    {
+      "test_name": "Superlikes",
+      "success": false,
+      "details": "Ya existe un usuario con email elena@premium.com",
+      "timestamp": "2025-12-09T19:47:02.0888201+01:00"
+    },
+    {
+      "test_name": "Auth General",
+      "success": false,
+      "details": "Ya existe un usuario con email authtest@test.com",
+      "timestamp": "2025-12-09T19:47:02.1047229+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n CREATE",
+      "success": true,
+      "details": "ID: 1315, Mensaje: \u00A1Te hizo un like!",
+      "timestamp": "2025-12-09T19:47:02.1220281+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n CREATE 2",
+      "success": true,
+      "details": "ID: 1316",
+      "timestamp": "2025-12-09T19:47:02.1285611+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n READ ALL",
+      "success": true,
+      "details": "Total notificaciones: 14",
+      "timestamp": "2025-12-09T19:47:02.1350842+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n READ BY ID",
+      "success": true,
+      "details": "Mensaje: \u00A1Te hizo un like!",
+      "timestamp": "2025-12-09T19:47:02.1353931+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n UPDATE",
+      "success": true,
+      "details": "Nuevo mensaje: \u00A1Tienes un nuevo like!",
+      "timestamp": "2025-12-09T19:47:02.1425493+01:00"
+    },
+    {
+      "test_name": "Notificaci\u00F3n DELETE",
+      "success": true,
+      "details": "Eliminada, b\u00FAsqueda retorna: null",
+      "timestamp": "2025-12-09T19:47:02.156661+01:00"
+    },
+    {
+      "test_name": "Admin CREATE",
+      "success": true,
+      "details": "ID: 1414, Email: admin@test.com",
+      "timestamp": "2025-12-09T19:47:02.1763773+01:00"
+    },
+    {
+      "test_name": "Admin CREATE 2",
+      "success": true,
+      "details": "ID: 1415",
+      "timestamp": "2025-12-09T19:47:02.1832235+01:00"
+    },
+    {
+      "test_name": "Admin READ ALL",
+      "success": true,
+      "details": "Total admins: 3",
+      "timestamp": "2025-12-09T19:47:02.1906763+01:00"
+    },
+    {
+      "test_name": "Admin READ BY ID",
+      "success": true,
+      "details": "Email: admin@test.com",
+      "timestamp": "2025-12-09T19:47:02.1909992+01:00"
+    },
+    {
+      "test_name": "Admin UPDATE",
+      "success": true,
+      "details": "Nuevo email: admin.actualizado@test.com",
+      "timestamp": "2025-12-09T19:47:02.1978591+01:00"
+    },
+    {
+      "test_name": "Admin DELETE",
+      "success": true,
+      "details": "Eliminado, b\u00FAsqueda retorna: null",
+      "timestamp": "2025-12-09T19:47:02.2110438+01:00"
+    }
+  ]
+}

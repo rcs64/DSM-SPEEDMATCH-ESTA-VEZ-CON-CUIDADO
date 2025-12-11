@@ -1,0 +1,63 @@
+﻿@model IEnumerable<WebSpeedmatch.Models.PreferenciasViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevas preferencias</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orientacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrientacionOtro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrientacionMostrar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conocer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConocerOtro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @(item.Usuario?.Nombre ?? "Sin usuario")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Orientacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrientacionOtro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrientacionMostrar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conocer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConocerOtro)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Borrar", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

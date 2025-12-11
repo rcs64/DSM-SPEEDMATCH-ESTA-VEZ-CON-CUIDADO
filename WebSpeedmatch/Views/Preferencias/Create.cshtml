@@ -1,0 +1,53 @@
+﻿@model WebSpeedmatch.Models.PreferenciasViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<h4>Preferencias</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Orientacion" class="control-label"></label>
+                <input asp-for="Orientacion" class="form-control" />
+                <span asp-validation-for="Orientacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrientacionOtro" class="control-label"></label>
+                <input asp-for="OrientacionOtro" class="form-control" />
+                <span asp-validation-for="OrientacionOtro" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="OrientacionMostrar" /> @Html.DisplayNameFor(model => model.OrientacionMostrar)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Conocer" class="control-label"></label>
+                <input asp-for="Conocer" class="form-control" />
+                <span asp-validation-for="Conocer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConocerOtro" class="control-label"></label>
+                <input asp-for="ConocerOtro" class="form-control" />
+                <span asp-validation-for="ConocerOtro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
